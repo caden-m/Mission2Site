@@ -1,0 +1,100 @@
+﻿<!-- Home (Index) Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title class="container ">Caden's Site</title>
+    <link rel="icon" type="image/x-icon" href="img/kanyeFavicon.png" class="center">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" class="center" />
+</head>
+
+<body class="margin">
+    <div class="bg-light">
+        <br />
+        <h1>Caden Marquis</h1>
+        <br />
+        <br />
+
+        <img class="img" id="beachPic" src="img/beach.png" width="550" height="400" />
+        <img class="img" id="surfPic" src="img/surfPic.jpg" height="400" />
+
+        <br />
+        <br />
+        <p> In IS 413, I want to learn the basics of application development so I can work on fun side projects and be more familiar with development for my future career(s)!</p>
+        <br />
+
+        <div class="list">
+            <p> Job Interests:</p>
+
+            <ul style="list-style: none;">
+                <li>Product Management</li>
+                <li>Data Science</li>
+                <li>Blockchain Development</li>
+                <li>Or all of the above in a start-up</li>
+            </ul>
+        </div>
+        <br />
+        <br />
+        <br />
+
+
+        <h2>IS 414 Grade Calculator</h2>
+        <br />
+        <div>
+            <h3>Grades:</h3>
+            <br />
+            <form>
+                <label>Assignments:</label>
+                <input id="numAssignments" placeholder="0-55%" /><br />
+                <br />
+                <label>Group Project:</label>
+                <input id="numGroupProject" placeholder="0-5%" /><br />
+                <br />
+                <label>Quizzes</label>
+                <input id="numQuizzes" placeholder="0-10%" /><br />
+                <br />
+                <label>Exams:</label>
+                <input id="numExams" placeholder="0-20%" /><br />
+                <br />
+                <label>INTEX:</label>
+                <input id="numIntex" placeholder="0-10%" /><br />
+                <br />
+                <input id="calcButton" type="button" value="Calculate" />
+            </form>
+        </div>
+
+        <!--<div class="mb-3 center">
+            <label for="formGroupExampleInput" class="form-label">Example label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+            <label for="formGroupExampleInput2" class="form-label">Another label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+        </div>-->
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <!--for showing the result-->
+        <div class="showdata">
+            <p id="showdata"></p>
+        </div>
+    </div>
+
+    <footer class="bg-dark">
+        <br />
+        <br />
+        <br />
+        <br />
+    </footer>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/calculator.js"></script>
+
+</body>
+
+</html>
+
